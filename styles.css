@@ -36,11 +36,19 @@ nav a[aria-current='page'] {
   background-color: #d4d4d4;
 }
 
-main {
-  padding: 1rem;
-}
 
 h1 {
   font-weight: bold;
   font-size: 1.5rem;
 }
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;  
+}
+
+
+
